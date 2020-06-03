@@ -1,0 +1,256 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    float: left;
+    margin: 15px 0 10px 0;
+    margin-left: 270px;
+}
+.div-img-logo img{
+    width: 100%;
+    height: 100%;
+}
+.div-img-logo{
+    width: 120px;
+    height: 70px;
+}
+.navbar{
+    float: left;
+    margin: 42.5px 50px 30px 0;
+    margin-left: 400px;
+    font-size: 14.5px;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 12px;
+}
+.navbar ul li:nth-child(4),.navbar ul li:nth-child(5),.navbar ul li:nth-child(6){
+    margin: 0px;
+}
+.navbar ul li:nth-child(4){
+    margin-left: 15px;
+}
+.navbar ul li:nth-child(5){
+    color: rgb(104, 101, 101);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(104, 101, 101);
+
+}
+.navbar ul li a:hover{
+    color: #000;
+}
+
+.clear{
+    clear: both;
+}
+.header{
+    background-color: #eee;
+    border-bottom: 2px solid #000;
+}
+
+body{
+    background-image: url(imgs/back.jpg);
+}
+.content{
+    text-align: center;
+    color: rgb(104, 101, 101);
+    padding: 100px;
+    margin-top: 20px;
+}
+.content h1{
+    color: #fff;
+    letter-spacing: 4px;
+}
+.text-content{
+    margin: auto;
+    width: 900px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 50px;
+}
+.text-content p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 25px;
+}
+.text-content a{
+    color: #fff;
+}
+.text-content a:hover{
+    color: #aaa;
+}
+
+.social-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.social-img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 25px;
+}
+.social-img:last-child{
+    width: 30px;
+    height: 20px;
+}
+.social{
+    float: left;
+    margin:33px 0 0 300px;
+}
+.footer{
+    margin-top: 100px;
+    background-color: #eee;
+    height: 90px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.copyright{
+    float: left;
+    margin: 33px 0 0 700px;
+    color: rgb(104, 101, 101);
+}
+.div-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.div-img-box{
+    width: 198px;
+    height: 200px;
+    margin: auto;
+}
+.div-box{
+    width: calc(25% - 60px);
+    height: 410px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #fff;
+    float: left;
+    margin:0 30px;
+    position: relative;
+}
+.div-title-box{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.div-text{
+    color: rgb(63, 61, 61);
+    padding: 15px;
+}
+.div-boxes{
+    margin-top: 100px;
+}
+.div-text-box{
+    margin-top: 10px;
+}
+.btn-box{
+    background-color: rgb(32, 30, 172);
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 11px 0;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn-box:hover{
+    background-color: rgb(25, 23, 116);
+}
+.price{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-color: red;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 10px;
+    top: 5%;
+    left: 5%;
+}
+.content-page-contact h1,.content-page-products h1,.content-page-login h1,.content-page-register h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+form textarea{
+    display: block;
+}
+form{
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 30px;
+}
+.div-label{
+    margin: auto;
+    margin: 40px;
+}
+.div-label input,.div-label textarea{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(158, 153, 153);
+    padding: 15px;
+    font-size: 14px;
+}
+.div-label textarea{
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.btn-send{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #000;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.btn-send:hover{
+    background: rgb(54, 53, 53);
+}
+.content-page-login .div-label label,.content-page-register .div-label label{
+    display: block;
+    margin-bottom: 5px;
+}
+.content-page-login .div-label,.content-page-register .div-label{
+    margin: 20px;
+}
+.content-page-login form,.content-page-register form{
+    width: 400px;
+}
+.content-page-login .div-label input,.content-page-register .div-label input{
+    width: 100%;
+}
+.reset{
+    text-align: center;
+    margin: 10px 0;
+}
+.reset a{
+    color: #000;
+}
+.remember{
+    margin-left: 20px;
+}
+.remember label,.remember input{
+    cursor: pointer;
+}
